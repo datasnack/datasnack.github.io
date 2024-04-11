@@ -28,6 +28,7 @@ export default defineConfig({
           { text: 'Shape', link: '/guide/docs/shape' },
           { text: 'Data Layer', link: '/guide/docs/datalayer' },
           { text: 'API', link: '/guide/docs/api' },
+          { text: 'Technology', link: '/guide/docs/technology' },
         ]
       }]
     },

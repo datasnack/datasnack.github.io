@@ -1,6 +1,6 @@
 # Data Hub Documentation
 
-The documentation is written in Markdown and served as static HTML with [VitePress](https://vitepress.dev/).
+This is the documentation for the [Data Hub](https://github.com/datasnack/datahub) project, it's written in Markdown and served as static HTML with [VitePress](https://vitepress.dev/).
 
 ## Editing content
 

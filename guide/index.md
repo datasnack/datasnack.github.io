@@ -12,7 +12,7 @@ Use cases:
 - Data platform for a team / project that contains only the selected data relevant for the team.
 
 
-Technical aspects:
+Key technical aspects (for details see [Technology](docs/technology.md)):
 
 - Developed in **Python** to harness the large GIS ecosystem
 - Web frontend developed with the **Django** framework
