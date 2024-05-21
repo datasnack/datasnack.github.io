@@ -18,15 +18,16 @@ export default defineConfig({
         items: [
           { text: 'About', link: '/guide/' },
           { text: 'Installation', link: '/guide/installation' },
-          { text: 'Shapes', link: '/guide/shapes' },
-          { text: 'Data Layers', link: '/guide/datalayers' },
+          { text: 'Interface', link: '/guide/interface'},
+          { text: 'Usage', link: '/guide/usage'}
         ]
       }, {
         text: 'Documentation',
         items: [
-          { text: 'Data Hub', link: '/guide/docs/datahub' },
+          //{ text: 'Data Hub', link: '/guide/docs/datahub' },
           { text: 'Shape', link: '/guide/docs/shape' },
           { text: 'Data Layer', link: '/guide/docs/datalayer' },
+          { text: 'CLI', link: '/guide/docs/cli' },
           { text: 'API', link: '/guide/docs/api' },
           { text: 'Technology', link: '/guide/docs/technology' },
         ]

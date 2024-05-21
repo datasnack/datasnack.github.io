@@ -1,7 +1,6 @@
 # Technology
 
-In this section the used technologies and frameworks and the reason behind using them is explained.
-
+On this page the used technologies and frameworks and the reason behind using them is explained.
 
 ## Backend
 
@@ -40,6 +39,9 @@ The PostgreSQL based PostGIS database for spatial data provides easy handling of
 
 For the styling of HTML/CSS the [Bootstrap](https://getbootstrap.com/) framework is used. It provides ready-to-use HTML components and a documentation, as well as grid system and general styling defaults/helpers. In contrast to other frontend frameworks, like Tailwind, the choice of Bootstrap was made to provide and use components directly without the need of running a frontend build process. This applies to the "core" development as well as the extensibility for the user in custom Data Hub instances with individual pages.
 
+### Octicons
+
+Used for icons in the user interface.
 
 ### Leaflet
 
@@ -56,3 +58,28 @@ For the styling of HTML/CSS the [Bootstrap](https://getbootstrap.com/) framework
 ### Docker
 
 Containers
+
+
+## Licenses
+
+The following table contains most first class dependencies of the Data Hub project. The Data Hub itself is licensed under the MIT license.
+
+| Dependency                                                   | License         |
+| ------------------------------------------------------------ | --------------- |
+| Python                                                       | PSF (BSD style) |
+| [Pandas](https://github.com/pandas-dev/pandas/)              | BSD-3-Clause    |
+| [GeoPandas](https://github.com/geopandas/geopandas)          | BSD-3-Clause    |
+| [Rasterio](https://github.com/rasterio/rasterio)             | BSD-3-Clause    |
+| [Django](https://github.com/django/django)                   | BSD-3-Clause    |
+| [Django Taggit](https://github.com/jazzband/django-taggit)   | BSD-3-Clause    |
+| [PostGIS](https://github.com/postgis/postgis)                | GPL-2.0         |
+| [Bootstrap](https://github.com/twbs/bootstrap)               | MIT             |
+| [Octicons](https://github.com/primer/octicons)               | MIT             |
+| [Leaflet](https://github.com/Leaflet/Leaflet)                | BSD-2-Clause    |
+| [Leaflet.loading](https://github.com/ebrelsford/Leaflet.loading) | MIT             |
+| [Leaflet.markercluster](https://github.com/Leaflet/Leaflet.markercluster) | MIT             |
+| [DataTables](https://github.com/DataTables/DataTables)       | MIT             |
+| [Plotly.js](https://github.com/plotly/plotly.js)             | MIT             |
+| [Highlight.js](https://github.com/highlightjs/highlight.js)  | BSD-3-Clause    |
+| [D3.js](https://github.com/d3/d3)                            | ISC             |
+| [jQuery](https://github.com/jquery/jquery)                   | MIT             |
