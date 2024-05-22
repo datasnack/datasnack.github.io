@@ -24,7 +24,7 @@ export default defineConfig({
       }, {
         text: 'Documentation',
         items: [
-          //{ text: 'Data Hub', link: '/guide/docs/datahub' },
+          { text: 'Data Hub', link: '/guide/docs/datahub' },
           { text: 'Shape', link: '/guide/docs/shape' },
           { text: 'Data Layer', link: '/guide/docs/datalayer' },
           { text: 'CLI', link: '/guide/docs/cli' },

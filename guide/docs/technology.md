@@ -67,12 +67,22 @@ The following table contains most first class dependencies of the Data Hub proje
 | Dependency                                                   | License         |
 | ------------------------------------------------------------ | --------------- |
 | Python                                                       | PSF (BSD style) |
+| [PostGIS](https://github.com/postgis/postgis)                | GPL-2.0         |
+| [GDAL](https://github.com/OSGeo/gdal)                        | MIT             |
+| [PROJ](https://github.com/OSGeo/PROJ/)                       | MIT             |
+| **Python packages:**                                         |                 |
 | [Pandas](https://github.com/pandas-dev/pandas/)              | BSD-3-Clause    |
 | [GeoPandas](https://github.com/geopandas/geopandas)          | BSD-3-Clause    |
 | [Rasterio](https://github.com/rasterio/rasterio)             | BSD-3-Clause    |
+| [shapely](https://github.com/shapely/shapely)                | BSD-3-Clause    |
+| [numpy](https://github.com/numpy/numpy)                      | BSD-3-Clause    |
+| [geojson](https://github.com/jazzband/geojson)               | BSD-3-Clause    |
+| [osmnx](https://github.com/gboeing/osmnx)                    | MIT             |
 | [Django](https://github.com/django/django)                   | BSD-3-Clause    |
+| [Django Debug Toolbar](https://github.com/jazzband/django-debug-toolbar) | BSD-3-Clause    |
 | [Django Taggit](https://github.com/jazzband/django-taggit)   | BSD-3-Clause    |
-| [PostGIS](https://github.com/postgis/postgis)                | GPL-2.0         |
+| [django-environ](https://github.com/joke2k/django-environ)   | MIT             |
+| **Web components:**                                          |                 |
 | [Bootstrap](https://github.com/twbs/bootstrap)               | MIT             |
 | [Octicons](https://github.com/primer/octicons)               | MIT             |
 | [Leaflet](https://github.com/Leaflet/Leaflet)                | BSD-2-Clause    |
