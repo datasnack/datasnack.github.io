@@ -1,20 +1,20 @@
 # What is the Data Hub?
 
-The Data Hub is a [geographic information system](https://en.wikipedia.org/wiki/Geographic_information_system) (GIS) with a data fusion engine for harmonizing diverse data sources. Its focus is to harmonize diverse data on temporal and spatial axes, to allow the user to combine and analyze this information. 
+The Data Hub is a [geographic information system](https://en.wikipedia.org/wiki/Geographic_information_system) (GIS) featuring a data fusion engine designed for data harmonization, alongside an interactive dashboard for effective data exploration and collaboration. Its key objective is to merge data of multiple formats and sources across temporal and spatial axes, allowing users to combine, analyze, and interpret the data.
 
-- All data processing is **reproducible** by requiring it to be defined in Python code.
-- The system is **Open Source** (MIT license) so that anyone can investigate it.
-- The system has to be used on your computer or on a server inside your organization, so you have complete data sovereignty.
+- All data processing is **reproducible** by mandating its definition in Python code.
+- The system is **Open Source** (MIT license), allowing anyone to explore and modify it.
+- The system must be installed either on your computer or a server within your organization, ensuring you maintain full data sovereignty.
 
 Use cases:
 
 - Data processing
-- Data platform for a team / project that contains only the selected data relevant for the team.
+- Data dashboard designed for interdisciplinary teams/projects that contains data relevant to their activities
 
 
 Key technical aspects (for details see [Technology](docs/technology.md)):
 
-- Developed in **Python** to harness the large GIS ecosystem
+- Developed in **Python** to harness the extensive GIS ecosystem
 - Web frontend developed with the **Django** framework
 - Processed data is stored in **PostGIS** database
 

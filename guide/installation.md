@@ -1,7 +1,7 @@
 # Installation
 
 ::: warning
-Currently the Data Hub is in the early stage of development and *not* ready for production use. The shows routines might change quickly and not provide a documented migration path.
+Currently the Data Hub is in the early stage of development and *not* ready for production use. The shown routines might change quickly and not provide a documented migration path.
 :::
 
 The Data Hub itself functions as a framework for your individual data, so to install it without a use case might not be the best approach. For this reason we will install an example setup of the [Data Hub with data for Ghana](https://github.com/datasnack/dh-ghana). It will already include preprocessed data, so you don't need to wait to download and process the raw data (though of course you can also do that!). After installing it and familiarizing yourself with the setup you should be able to create a new instance with your own data.
