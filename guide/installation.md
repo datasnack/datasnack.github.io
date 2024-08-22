@@ -18,21 +18,22 @@ At the moment we do not provide a ready to use Docker image of the Data Hub fram
 
 ---
 
-After that follow these steps to install the Ghana Hub on your system: 
+After that follow these steps to install the [Ghana Hub](https://github.com/datasnack/dh-ghana) on your system: 
 
 1. Clone the repository to a new folder: `git clone git@github.com:datasnack/dh-ghana.git`
 2. Copy the `.env.example` to `.env`: `cp .env.example .env`
-3. Set `SECRET_KEY=` inside the `.env` with a secret value. Use this to create a random value: `python3 -c 'import secrets; print(secrets.token_hex(100))`
-4. Run `$ docker-compose up -d`. This will spin up the Data Hub Django project as well as a PostGIS database.
+3. Open the `.env` file and make sure the following variables are configured `SECRET_KEY`, `DATAHUB_NAME` (instructions are inside the .env file)
+4. Run `$ docker compose up -d`. This will spin up the Data Hub Django project as well as a PostGIS database.
 
 Wait/check until [http://localhost:8000/](http://localhost:8000/) is available in your browser and shows the Data Hub interface.
 
-From the [Release page](https://github.com/datasnack/dh-ghana/releases) of the Ghana Hub repo download the latest `.dump` file and save it inside the `data/` directory of the Ghana Hub folder. This contains the shapes for Ghana as well as the pre-processed Data Layers. 
+From the [release page](https://github.com/datasnack/dh-ghana/releases) of the Ghana Hub repo download the latest `.dump` file and save it inside the `data/` directory of the Ghana Hub folder. This contains the shapes for Ghana as well as the pre-processed Data Layers. 
 
-Import it by running: `docker-compose exec data-hub python manage.py restore data/<dump file>`
+Import it by running: `$ docker compose exec datahub python manage.py restore data/<dump file>`
 
-Now you should be able to browse and interact with the Data Hub. Login with the user `admin` and the password `admin`. 
+You can now browse the interface of the Data Hub. 
 
+To use the backend (located at [http://localhost:8000/admin](http://localhost:8000/admin)) you need to create a new user by running: `$ docker compose exec datahub python manage.py createsuperuser`
 
 ## File system structure
 
