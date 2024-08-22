@@ -6,6 +6,11 @@ export default defineConfig({
   description: "Python based GIS ",
   ignoreDeadLinks: 'localhostLinks',
   themeConfig: {
+
+    search: {
+      provider: 'local'
+    },
+
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
