@@ -22,12 +22,14 @@ After that follow these steps to install the [Ghana Hub](https://github.com/data
 
 1. Clone the repository to a new folder: `git clone git@github.com:datasnack/dh-ghana.git`
 2. Copy the `.env.example` to `.env`: `cp .env.example .env`
-3. Open the `.env` file and make sure the following variables are configured `SECRET_KEY`, `DATAHUB_NAME` (instructions are inside the .env file)
+3. Open the `.env` file and make sure the following variables are configured (instructions are inside the .env file):
+    - `SECRET_KEY` 
+    - `DATAHUB_NAME` 
 4. Run `$ docker compose up -d`. This will spin up the Data Hub Django project as well as a PostGIS database.
 
 Wait/check until [http://localhost:8000/](http://localhost:8000/) is available in your browser and shows the Data Hub interface.
 
-From the [release page](https://github.com/datasnack/dh-ghana/releases) of the Ghana Hub repo download the latest `.dump` file and save it inside the `data/` directory of the Ghana Hub folder. This contains the shapes for Ghana as well as the pre-processed Data Layers. 
+From the [release page](https://github.com/datasnack/dh-ghana/releases) of the Ghana Hub repo download the latest `*.dump` file and save it inside the `data/` directory of the Ghana Hub folder. This contains the shapes for Ghana as well as the pre-processed Data Layers. 
 
 Import it by running: `$ docker compose exec datahub python manage.py restore data/<dump file>`
 

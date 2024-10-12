@@ -1,6 +1,7 @@
 # Technology
 
-On this page the used technologies and frameworks and the reason behind using them is explained.
+On this page most top level technologies and frameworks and the reason behind using them is explained.
+
 
 ## Backend
 
@@ -11,13 +12,11 @@ For the programming language Python was chosen due to its large ecosystem regard
 Downsides are a suboptimal dependency management and no typing. Though type hints are used in the project
 
 
-#### Pandas
+### Pandas and GeoPandas
 
-#### GeoPandas
+### Rasterio
 
-#### Rasterio
-
-#### 
+Processing of raster files (like GeoTiff).
 
 ### Django 
 
@@ -43,21 +42,37 @@ For the styling of HTML/CSS the [Bootstrap](https://getbootstrap.com/) framework
 
 Used for icons in the user interface.
 
-### Leaflet
+### DataTables (+ jQuery)
 
-### DataTables
+Interactive sorting and searching of client side tables.
+
+
+### [Leaflet](https://leafletjs.com/)
+
+Interactive maps with Data Hub specific data overlaid (Shapes, choropleth maps).
+
 
 ### Plotly.js
 
+Flexible charting library for visualizations of time series of the processed data.
+
 ### D3.js
 
+
+
 ### Highlight.js
+
+Syntax highlighting for source code files shown in the frontend.
+
+### Svelte
+
+Building of dynamic reusable components in the Data Hub frontend (like the chart component).
 
 ## Infrastructure
 
 ### Docker
 
-Containers
+Containers for distribution and deployment.
 
 
 ## Licenses
@@ -93,3 +108,4 @@ The following table contains most first class dependencies of the Data Hub proje
 | [Highlight.js](https://github.com/highlightjs/highlight.js)  | BSD-3-Clause    |
 | [D3.js](https://github.com/d3/d3)                            | ISC             |
 | [jQuery](https://github.com/jquery/jquery)                   | MIT             |
+| [Svelte](https://github.com/sveltejs/svelte)                 | MIT             |

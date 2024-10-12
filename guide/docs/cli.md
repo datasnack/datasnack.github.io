@@ -3,7 +3,7 @@
 The Data Hub provides the following CLI commands that ca be run via Djangos `manage.py` system.
 
 ::: info
-If you run the system inside a Docker container you need to prefix the commands with `docker-compose exec datahub`, i.e., `docker-compose exec data-hub python manage.py <command>`.
+If you run the system inside a Docker container you need to prefix the commands with `docker compose exec datahub`, i.e., `docker compose exec datahub python manage.py <command>`.
 :::
 
 ## Load shapes
@@ -18,10 +18,17 @@ python manage.py loadshapes <file>
 
 ## Data Layer
 
+Create a new Data Layer:
+
+```sh
+python manage.py dl_init <data layer key>
+```
+
 To download or process a defined Data Layer.
 
 ```sh
-python manage.py datalayer <data layer key> {download|process}
+python manage.py dl_download <data layer key>
+python manage.py dl_process <data layer key>
 ```
 
 ## Centroid
@@ -39,6 +46,7 @@ Export the database contents to a single file. This **doesn't** export raw data 
 ```sh
 python manage.py dump [<file>]
 ```
+
 
 ## Import
 

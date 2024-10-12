@@ -1,6 +1,6 @@
 # Shape
 
-The `Shape` objects is a simple structure that holds the geometry of a specific region of interest. A Data Hub can contain as many shapes as you want. It follows a simple hierarchical approach, so each shape can have one parent and any number of children.
+The `Shape` model provides a structure that holds the geometry of a specific region of interest. A Data Hub can contain as many shapes as you want. It follows a simple hierarchical approach, so each shape can have one parent and any number of children.
 
 ## Preparation
 
@@ -17,3 +17,9 @@ You need to prepare your data in the format needed by the Data Hub. It can be a 
 
 
 In [this repository](https://github.com/datasnack/aoi-ghana) the preparation is shows for the administrative levels inside Ghana.
+
+The prepared shapes can be imported into the Data Hub with the following CLI command: 
+
+    $ python manage.py loadshapes data/<file>
+
+The file should be located under the `data/` directory (in case it's executed inside the Docker container).

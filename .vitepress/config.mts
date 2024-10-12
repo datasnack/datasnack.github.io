@@ -35,6 +35,7 @@ export default defineConfig({
           { text: 'Data Layer', link: '/guide/docs/datalayer' },
           { text: 'CLI', link: '/guide/docs/cli' },
           { text: 'API', link: '/guide/docs/api' },
+          { text: 'Development', link: '/guide/docs/development' },
           { text: 'Technology', link: '/guide/docs/technology' },
         ]
       }]

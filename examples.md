@@ -5,4 +5,7 @@ This page lists some showcases that demonstrate features and concepts of the Dat
 
 ## Ghana Hub
 
-A Data Hub that combines data in Ghana: https://github.com/datasnack/dh-ghana
+A Data Hub that combines data in Ghana:
+
+- Live demo: https://demo.datasnack.org/
+- Source code https://github.com/datasnack/dh-ghana
