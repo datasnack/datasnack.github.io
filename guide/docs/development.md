@@ -37,6 +37,10 @@ python manage.py createsuperuser
 
 Now you can start the Data Hub with `python manage.py runserver`.
 
+
+To run the application through a debugger follow [this guide](https://code.visualstudio.com/docs/python/tutorial-django#_create-a-debugger-launch-profile) for an example on how to debug Django projects in Visual Studio Code. 
+
+
 ## Frontend
 
 For the frontend the JavaScript and CSS assets are bundles with [Vite](https://vite.dev/). For this run `npm install` to install the needed dependencies.
