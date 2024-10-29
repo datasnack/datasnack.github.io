@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Data Hub",
+  title: "Data Snack",
   description: "Python based GIS ",
   ignoreDeadLinks: 'localhostLinks',
   themeConfig: {
@@ -14,12 +14,16 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/' },
+      { text: 'Data Hub guide', link: '/guide/' },
       { text: 'Examples', link: '/examples' }
     ],
 
     sidebar: {
       'guide': [{
+        text: 'Data Hub',
+        items: [
+        ]
+      }, {
         text: 'Introduction',
         items: [
           { text: 'About', link: '/guide/' },

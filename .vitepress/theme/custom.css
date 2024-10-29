@@ -1,0 +1,31 @@
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttons .VPButton {
+    text-decoration: none;
+    margin: 6px;
+}
+
+.vp-doc .h1 {
+    line-height: 64px;
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+
+
+}
+
+.vp-doc .tagline {
+    line-height: 36px;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+
+.brand {
+    color: var(--vp-home-hero-name-color);
+}
