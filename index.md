@@ -70,7 +70,7 @@ Data Snack, based at the **Bernhard Nocht Institute for Tropical Medicine** (BNI
 Operating at the intersection of health and computer sciences, we collaborate with stakeholders in research, data management, data analysis, epidemiology and public health. Alongside various research groups at the BNITM, a key partner in our efforts is the **Charité Center for Global Health** (CCGH) at **Charité - University Medicine Berlin**, Germany. In addition, we receive support in drafting new features and tools from the **Hamburg University of Applied Sciences** (HAW Hamburg) through its Bachelor's and Master's programs in Computer Sciences and its Multi-Agent Research & Simulation group (MARS), based in Hamburg, Germany.
 
 <div class="buttons">
-  <VPButton tag="a" theme="alt" text="Data Snack One Pager" href="./public/DataSnack_Infosheet.pdf" />
+  <VPButton tag="a" theme="alt" text="Data Snack One Pager" href="./DataSnack_Infosheet.pdf" />
   <VPButton tag="a" theme="alt" text="Meet the BNITM" href="https://www.bnitm.de/en/research/research-groups/population/infectious-disease-epidemiology-department/research-topics/surveillance-and-digital-epidemiology/data-snack" />
   <VPButton tag="a" theme="alt" text="Meet the JHS" href="https://www.joachim-herz-stiftung.de/en/research/research-and-application/innovation-academy"  />
   <VPButton tag="a" theme="alt" text="Meet the CCGH" href="https://globalhealth.charite.de/en/" />
