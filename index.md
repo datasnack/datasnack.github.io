@@ -71,7 +71,7 @@ Operating at the intersection of health and computer sciences, we collaborate wi
 
 <div class="buttons">
   <VPButton tag="a" theme="alt" text="Data Snack One Pager" href="./DataSnack_Infosheet.pdf" />
-  <VPButton tag="a" theme="alt" text="Meet the BNITM" href="https://www.bnitm.de/en/research/research-groups/population/infectious-disease-epidemiology-department/research-topics/surveillance-and-digital-epidemiology/data-snack" />
+  <VPButton tag="a" theme="alt" text="Meet the BNITM" href="https://www.bnitm.de/en/" />
   <VPButton tag="a" theme="alt" text="Meet the JHS" href="https://www.joachim-herz-stiftung.de/en/research/research-and-application/innovation-academy"  />
   <VPButton tag="a" theme="alt" text="Meet the CCGH" href="https://globalhealth.charite.de/en/" />
   <VPButton tag="a" theme="alt" text="Meet the HAW Hamburg" href="https://www.mars-group.org/" />
