@@ -5,6 +5,11 @@ export default defineConfig({
   title: "Data Snack",
   description: "Python based GIS ",
   ignoreDeadLinks: 'localhostLinks',
+
+  head: [
+    ['script', { src: 'https://stats.datasnack.org/script.js', 'data-website-id': '628fa88f-9ae8-4491-a0b5-ee986bde7465', defer: '' }]
+  ],
+
   themeConfig: {
 
     search: {
