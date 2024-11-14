@@ -25,11 +25,7 @@ export default defineConfig({
 
     sidebar: {
       'guide': [{
-        text: 'Data Hub',
-        items: [
-        ]
-      }, {
-        text: 'Introduction',
+        text: 'Data Hub Introduction',
         items: [
           { text: 'About', link: '/guide/' },
           { text: 'Installation', link: '/guide/installation' },
@@ -55,8 +51,7 @@ export default defineConfig({
     ],
 
     footer: {
-      copyright: 'Copyright © 2024'
+      copyright: 'Copyright © 2024 Data Snack'
     }
-
   }
 })
