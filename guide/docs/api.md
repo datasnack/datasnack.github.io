@@ -40,5 +40,5 @@ URL: `api/datalayers/datalayer`
 
 | Parameter | Required | Type   | Explanation                              |
 | --------- | -------- | ------ | ---------------------------------------- |
-| `format`  |          | String | One of `csv`, `excel`. `csv` is default. |
+| `format`  |          | String | One of `json`, `csv`, `excel`. `json` is default. |
 
