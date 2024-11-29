@@ -20,7 +20,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Data Hub guide', link: '/guide/' },
-      { text: 'Examples', link: '/examples' }
+      { text: 'Our work', link: '/our-work' }
     ],
 
     sidebar: {
