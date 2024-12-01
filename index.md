@@ -13,7 +13,7 @@ hero:
       link: /guide/
     - theme: alt
       text: Examples
-      link: /examples
+      link: /our-work
 
 features:
   - title: OPEN SOURCE
