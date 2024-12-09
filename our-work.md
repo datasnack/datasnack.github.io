@@ -43,7 +43,7 @@ While project-specific Data Hub systems on Ghana are utilized and supported indi
     ]"
 >
 
-In cooperation with partners from Germany and Costa Rica, we are co-developing a Data Hub, including new features, to support data collaboration and research on climate change and antimicrobial resistance in Costa Rica as part of the new "German-Costa Rican Center for Climate Adaptation and Infectious Diseases" (GC-ADAPT), funded by the German Federal Ministry of Education and Research (BMBF). This project leverages Costa Rica’s unique characteristics as an ideal use case, given its diverse climate zones condensed into a small geographical area.
+In cooperation with partners from Germany and Costa Rica, we are co-developing a Data Hub, including new features, to support data collaboration and research on climate change and antimicrobial resistance in Costa Rica as part of the new ["German-Costa Rican Center for Climate Adaptation and Infectious Diseases" (GC-ADAPT)](https://www.bnitm.de/forschung/forschungsgruppen/population/abt-infektionsepidemiologie/research-topics/surveillance-and-digital-epidemiology/gc-adapt), funded by the German Federal Ministry of Education and Research (BMBF). This project leverages Costa Rica’s unique characteristics as an ideal use case, given its diverse climate zones condensed into a small geographical area.
 
 **Collaborating partners:**
 - Bernhard Nocht Institute for Tropical Medicine (GER)
@@ -126,7 +126,7 @@ We are collaborating with the [Interdisciplinary Academy of Competence & Educati
     ]"
 >
 
-**EVEER - Educational Virtual Environment for Epidemic Response**: Single-player virtual reality experience to strengthen mobile laboratory capacity in outbreak settings. The project is conducted in collaboration with the [GO4BSB consortium](https://go4bsb.de/), the VR application is developed by [Studio Monstrum](https://studiomonstrum.com/).
+[**EVEER - Educational Virtual Environment for Epidemic Response**](https://www.bnitm.de/en/training/zentrum-fuer-fort-und-weiterbildung/iace/projects/eveer): Single-player virtual reality experience to strengthen mobile laboratory capacity in outbreak settings. The project is conducted in collaboration with the [GO4BSB consortium](https://go4bsb.de/), the VR application is developed by [Studio Monstrum](https://studiomonstrum.com/).
 
 
 </Teaser>
