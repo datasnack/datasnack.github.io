@@ -23,7 +23,7 @@ Lorem… 
 
 ## Images
 
-You can add images to your documentation, the files need to be placed inside the folder `./docs/images/`. Inside the Markdown files include them with `![]({% static "<filename> %})`. For example the image at `./docs/images/example.png` would be included by `![]({% static "example.png" %})`.
+You can add images to your documentation, the files need to be placed inside the folder `./docs/images/`. Inside the Markdown files include them with <code v-pre>![]({% static "$filename %})</code>. For example the image at `./docs/images/example.png` would be included by <code v-pre>![]({% static "example.png" %})</code>.
 
 
 ## Variables
