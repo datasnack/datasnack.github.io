@@ -2,12 +2,16 @@
 
 This section describes the setup for local development on the Data Hub. 
 
+## Dependencies
+
 The development setup depends on:
 
 - [Docker](https://www.docker.com/products/docker-desktop/)
 - Python
 - [uv](https://docs.astral.sh/uv/)
 - npm
+
+## Setup
 
 Setup of the local environment: 
 
@@ -37,13 +41,23 @@ python manage.py createsuperuser
 
 Now you can start the Data Hub with `python manage.py runserver`.
 
+### Python Debugger
 
 To run the application through a debugger follow [this guide](https://code.visualstudio.com/docs/python/tutorial-django#_create-a-debugger-launch-profile) for an example on how to debug Django projects in Visual Studio Code. 
 
 
+### Formatting and Linting 
+
+The project contains a [`.editorconfig`](https://editorconfig.org/) for common standards regarding handling indenting.
+
+The Python code is linted and formatted according to the [ruff](https://docs.astral.sh/ruff/) configuration in the `pyproject.toml`.
+
+For JavaScript and CSS the code is linted and formatted with the defaults of [biomejs.dev](https://biomejs.dev/).
+
+
 ## Frontend
 
-For the frontend the JavaScript and CSS assets are bundles with [Vite](https://vite.dev/). For this run `npm install` to install the needed dependencies.
+For the frontend the JavaScript and CSS assets are bundles with [Vite](https://vite.dev/). Run `npm install` to install the needed dependencies.
 
 Use `npm run dev` during development, with hot reloading (works only with `DEBUG=True`).
 
