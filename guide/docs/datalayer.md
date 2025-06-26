@@ -4,24 +4,28 @@ To create a new Data Layer you need first to decide on a unique identifier for i
 
 The source files for Data Layers are created inside the folder `src/datalayers/`. The filename should be `<key>.py`. Inside a new class needs to defined, but the class name should be in CamelCase (i.e. `WorldpopPopd`), following the Python convention for class names. It's derived form the `BaseLayer` class (or another/custom class that bundles functionality for a specific data source).
 
-Next you need to specify the temporal dimension of your data source, as well as the type of value it contains. This is defined via constants inside the `__init__(self)` method.
+Next you need to specify the temporal dimension of your data source, as well as the type of value it contains. This is defined via constants inside the `__init__(self)` method. When processing and storing data points, these constraints are checked by system.
 
+Set `self.time_col` to one of the following constants:
 
-
-| Temporal resolution                              | Constant                    |
+| Temporal resolution of the data                  | Constant                    |
 | ------------------------------------------------ | --------------------------- |
-| Data is provided per year (default).             | `LayerTimeResolution.YEAR`  |
-| Data is provided on a monthly basis. *) plannend | `LayerTimeResolution.MONTH` |
-| Data is provided on a daily basis.               | `LayerTimeResolution.DAY`   |
+| Per year (default).                              | `LayerTimeResolution.YEAR`  |
+| Per month                                        | `LayerTimeResolution.MONTH` |
+| Per week (ISO calendar week, starts on Monday).  | `LayerTimeResolution.WEEK` |
+| Per day                                          | `LayerTimeResolution.DAY`   |
 
+Set `self.value_type` to one of these values:
 
-
-| Value Type                                | Constant                    |
-| ----------------------------------------- | --------------------------- |
-| Numerical floating point Value (default). | `LayerValueType.VALUE`      |
-| Percentage (0 to 1).                      | `LayerValueType.PERCENTAGE` |
-| Binary value (`True`, `False`).           | `LayerValueType.BINARY`     |
-
+| Value Type                                                   | Constant                    |
+| ------------------------------------------------------------ | --------------------------- |
+| Floating point number                                        | `LayerValueType.FLOAT`      |
+| Whole numbers                                                | `LayerValueType.INTEGER`    |
+| Percentage (0 to 1).                                         | `LayerValueType.PERCENTAGE` |
+| Binary value (`True`, `False`).                              | `LayerValueType.BINARY`     |
+| Categorical, without natural order                           | `LayerValueType.NOMINAL`    |
+| Categorical, *with* natural order  (i.e., `low < medium < high`) | `LayerValueType.ORDINAL`    |
+| Numerical floating point Value (default).                    | `LayerValueType.VALUE`      |
 
 Now you can define the source of the Data Layer based on the template below. After creating the source file it's required to create a corresponding entry via the Django frontend using the same key (this is also where you can set the metadata documention).
 
@@ -41,13 +45,20 @@ class ExampleLayer(BaseLayer):
     def __init__(self):
         super().__init__()
         self.time_col = LayerTimeResolution.YEAR
-        self.value_type = LayerValueType.VALUE
+        self.value_type = LayerValueType.INTEGER
 
     def download(self):
         # ...
 
-    def process(self, shapes=None, save_output=False):
+    def process(self, shapes):
         # ...
+        
+        for shape in shapes:
+          # processing routine of your data for the current shape
+          # temporal = ...
+          # value = ...
+          
+          self.add_value(shape, temporal, value)
 ```
 
 ## Data download
@@ -81,33 +92,17 @@ Suppose the `data.csv` look like the following table:
 
 
 ```python
-def process(self, shapes=None, save_output=False):
-
-    # get all loaded shapes from the Data Hub
-    if shapes is None:
-        shapes = Shape.objects.all()
-
+def process(self, shape):
     # open the previously downlaoded CSV file
     df = pd.load_csv(self.get_data_path() / 'data.csv')
 
     for shape in shapes:
-        
         # clip to rows for current shape
         dfx = df[df['shape_name'] == shape.name]
 
         # iterate over rows per year
         for i, row in dfx.iterrows()
-
-            # self.rows = [] should contain one entry for each 
-            # shape-time combination that is avaiable from the data.
-            self.rows.append({
-                'year':     row['year'],
-                'shape_id': shape.id,
-                'value':    row['value']
-            })
-
-    # persists data inside self.rows to the PostGIS database
-    self.save()
+            self.add_value(shape, row['year'], row['value'])
 ```
 
 ## Documentation
