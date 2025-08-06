@@ -7,10 +7,14 @@ export default defineConfig({
   ignoreDeadLinks: 'localhostLinks',
 
   head: [
-    ['script', { src: 'https://stats.datasnack.org/script.js', 'data-website-id': '628fa88f-9ae8-4491-a0b5-ee986bde7465', defer: '' }]
+    ['script', { src: 'https://stats.datasnack.org/script.js', 'data-website-id': '628fa88f-9ae8-4491-a0b5-ee986bde7465', defer: '' }],
+    ['link', { rel: 'icon', href: '/datasnack-logo.svg', type: "image/svg+xml" }],
+    ['link', { rel: 'icon', href: '/datasnack-logo.png', type: "image/png" }]
   ],
 
   themeConfig: {
+
+    logo: '/datasnack-logo.svg',
 
     search: {
       provider: 'local'
