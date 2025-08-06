@@ -33,8 +33,8 @@ export default defineConfig({
         items: [
           { text: 'About', link: '/guide/' },
           { text: 'Installation', link: '/guide/installation' },
-          { text: 'Interface', link: '/guide/interface'},
-          { text: 'Usage', link: '/guide/usage'}
+          { text: 'Interface', link: '/guide/interface' },
+          { text: 'Usage', link: '/guide/usage' }
         ]
       }, {
         text: 'Documentation',
