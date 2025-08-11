@@ -14,7 +14,12 @@ export default defineConfig({
 
   themeConfig: {
 
-    logo: '/datasnack-logo.svg',
+    logo: {
+      light: '/datasnack-logo.svg',
+      // even if the logo contains prefer-color-scheme styling, webkit doesn't support
+      // this inside SVGs in all cases: https://bugs.webkit.org/show_bug.cgi?id=199134
+      dark: '/datasnack-logo.white.svg'
+    },
 
     search: {
       provider: 'local'
