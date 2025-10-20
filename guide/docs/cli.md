@@ -18,18 +18,45 @@ python manage.py loadshapes <file>
 
 ## Data Layer
 
-Create a new Data Layer:
+To interact with the Data Layers on the CLI the following management commands exist. `<key>` stands for the key of a Data Layer, you can provide multiple keys separated by `,` and use patterns with `*`.
+
+Managing Data Layers:
 
 ```sh
-python manage.py dl_init <data layer key>
+python manage.py dl_init <key>
+python manage.py dl_copy <source_key> <target_key>
+python manage.py dl_rename <source_key> <target_key>
+
+# Batch update of a single field of the Data Layer model
+python manage.py dl_update <key|s> --attr <attr> --value <value>
+
+# Delete metadata, log, processed data, class file, 
+# add --data to also delete data dir 
+python manage.py dl_delete <key>
 ```
 
-To download or process a defined Data Layer.
+Processing:
 
 ```sh
-python manage.py dl_download <data layer key>
-python manage.py dl_process <data layer key>
+python manage.py dl_download <key|s>
+python manage.py dl_process <key|s>
+
+# Delete processed data and log
+python manage.py dl_reset <key|s>
 ```
+
+Exporting and importing:
+
+```sh
+# Metadata (model definitions) of the Data Layers
+python manage.py dl_dump_data <key|s>
+python manage.py dl_dump_meta <key|s>
+
+# Processed data
+python manage.py dl_restore_data <file>
+python manage.py dl_restore_meta <file>
+```
+
 
 ## Centroid
 
