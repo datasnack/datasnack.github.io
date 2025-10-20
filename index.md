@@ -17,7 +17,7 @@ hero:
 
 features:
   - title: OPEN SOURCE
-    details: Self-hostable software built on Python/Django, licensed under MIT for maximum flexibility and full transparency
+    details: Self-hostable software built on Python/Django, licensed under AGPLv3 for maximum flexibility and full transparency
   - title: DATA HARMONIZATION
     details: Ingests diverse data types and formats, customizable for seamless data integration across temporal and spatial dimensions
   - title: DATA GOVERNANCE
