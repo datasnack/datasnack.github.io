@@ -80,7 +80,6 @@ Data Snack is a collaborative research and development initiative at the nexus o
       {text: 'ORCID', href: 'https://orcid.org/0000-0002-6327-8152'},
       {text: 'ResearchGate', href: 'https://www.researchgate.net/profile/Juliane-Boenecke-2'},
       {text: 'Gamification', href: 'https://www.bnitm.de/en/training/zentrum-fuer-fort-und-weiterbildung/iace/projects/collaborative-projects/eddi'},
-      {text: 'Bluesky', href: 'https://bsky.app/profile/jlnbnck.bsky.social'},
   ]"
   ><!-- blank line is required -->
 
