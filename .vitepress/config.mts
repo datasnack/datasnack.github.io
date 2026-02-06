@@ -1,12 +1,21 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig, type SiteConfig } from 'vitepress';
+import { buildRSSFeed } from './buildRSSFeed.ts';
+
+import { promises as fs } from "fs";
+import * as path from "path";
+
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Data Snack",
   description: "Python based GIS ",
-  ignoreDeadLinks: 'localhostLinks',
+  ignoreDeadLinks: [
+    /^https?:\/\/localhost:8000/, // links in data hub docs
+    '/feed.rss',
+  ],
 
   head: [
+    ['link', { rel: 'alternate', type: "application/rss+xml", title: "Data Snack News", href: "https://datasnack.org/feed.rss" }],
     ['script', { src: 'https://stats.datasnack.org/script.js', 'data-website-id': '628fa88f-9ae8-4491-a0b5-ee986bde7465', defer: '' }],
     ['link', { rel: 'icon', href: '/datasnack-logo.svg', type: "image/svg+xml" }],
     ['link', { rel: 'icon', href: '/datasnack-logo.png', type: "image/png" }]
@@ -28,8 +37,9 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Data Hub guide', link: '/guide/' },
-      { text: 'Our work', link: '/our-work' }
+      { text: 'News', link: '/news', activeMatch: '/news/?' },
+      { text: 'Our work', link: '/our-work' },
+      { text: 'Data Hub guide', link: '/guide/', activeMatch: '/guide/?' }
     ],
 
     sidebar: {
@@ -61,7 +71,29 @@ export default defineConfig({
     ],
 
     footer: {
-      copyright: 'Copyright © 2024 Data Snack'
+      copyright: 'Copyright © ' + new Date().getFullYear() + ' Data Snack'
     }
-  }
+  },
+  buildEnd: async function buildEnd(config: SiteConfig) {
+    buildRSSFeed(config);
+
+    // Get each article (markdown with frontmatter data)
+    const IMAGE_EXTENSIONS = new Set([".png", ".jpg", ".jpeg", ".gif"]);
+    const DEST_DIR = path.resolve(".vitepress/dist/news");
+    const dir = path.resolve("news");
+
+    const entries = await fs.readdir(dir, { withFileTypes: true });
+
+    for (const entry of entries) {
+      const fullPath = path.join(dir, entry.name);
+      const ext = path.extname(entry.name).toLowerCase();
+
+      if (!IMAGE_EXTENSIONS.has(ext)) continue;
+
+      const destPath = path.join(DEST_DIR, entry.name);
+
+      // If flat output causes name collisions, last one wins
+      await fs.copyFile(fullPath, destPath);
+    }
+  },
 })

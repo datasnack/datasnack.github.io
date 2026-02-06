@@ -6,6 +6,8 @@
   },
   "type": "module",
   "devDependencies": {
-    "vitepress": "^1.5.0"
+    "@types/node": "^25.0.10",
+    "feed": "^5.2.0",
+    "vitepress": "^1.6.3"
   }
 }
