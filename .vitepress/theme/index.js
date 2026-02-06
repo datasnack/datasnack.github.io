@@ -1,7 +1,6 @@
 import DefaultTheme from 'vitepress/theme'
 import './custom.css'
 import FigureImage from '../components/FigureImage.vue'
-import News from '../layouts/News.vue'
 
 import MyLayout from './MyLayout.vue'
 //export default DefaultTheme
