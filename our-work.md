@@ -248,7 +248,7 @@ DOI: [10.1371/journal.pone.0242685](https://doi.org/10.1371/journal.pone.0242685
 ***GeoTIFF DEM als 3D-Modell*** <br>
 Contributors: Ströbele J <br>
 News-Infographics-Analytics-Maps (NIAM) Initiative 2026, Berlin <br>
-**2023-01-19** | Conference talk (German) <br>
+**2026-01-15** | Conference talk (German) <br>
 URL: [https://www.news-infographics-analytics-maps.media/2026.html](https://www.news-infographics-analytics-maps.media/2026.html)
 
 ***Building a Data Harmonization Engine on top of Django -*** <br>
