@@ -105,7 +105,7 @@ To strengthen data-driven and effective collaborative research, a solid foundati
 <Teaser 
     title="Interdisciplinary Simulation for Pandemic Preparedness and Research Capacity (iSPARC)"
     :links="[
-		{text: 'Coming soon', href: ''}
+		{text: 'Visit iSPARC', href: 'https://www.bnitm.de/en/training/zentrum-fuer-fort-und-weiterbildung/iace/projects/isparc'}
     ]"
 >
 
