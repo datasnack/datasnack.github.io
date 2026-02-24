@@ -8,7 +8,8 @@ hero:
   text: "Data Hub framework"
   tagline: Self-hostable, open-source engine for reproducible data harmonization, dataset building & exploration
   image:
-    src: /Data-Snack-bits.svg
+    light: /Data-Snack-bits.light.svg
+    dark: /Data-Snack-bits.dark.svg
   actions:
     - theme: brand
       text: Setup & Usage
