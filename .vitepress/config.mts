@@ -18,7 +18,10 @@ export default defineConfig({
     ['link', { rel: 'alternate', type: "application/rss+xml", title: "Data Snack News", href: "https://datasnack.org/feed.rss" }],
     ['script', { src: 'https://stats.datasnack.org/script.js', 'data-website-id': '628fa88f-9ae8-4491-a0b5-ee986bde7465', defer: '' }],
     ['link', { rel: 'icon', href: '/datasnack-logo.svg', type: "image/svg+xml" }],
-    ['link', { rel: 'icon', href: '/datasnack-logo.png', type: "image/png" }]
+    ['link', { rel: 'icon', href: '/datasnack-logo.png', type: "image/png" }],
+    ['meta', { property: 'og:image', content: '/Data-Snack-bits.png' }],
+    ['meta', { property: 'og:image:width', content: '1200' }],
+    ['meta', { property: 'og:image:height', content: '630' }]
   ],
 
   themeConfig: {
