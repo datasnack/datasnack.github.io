@@ -12,8 +12,8 @@ hero:
     dark: /Data-Snack-bits.dark.svg
   actions:
     - theme: brand
-      text: Setup & Usage
-      link: /guide/
+      text: Data Hub Demo
+      link: https://demo.datasnack.org/
     - theme: alt
       text: Examples
       link: /our-work#data-hub-use-cases
@@ -43,7 +43,8 @@ The **Data Hub** is a flexible, self-hostable, open-source engine designed for r
 Explore our **Data Hub Demo** focused on Ghana, showcasing a variety of open health and contextual data, and discover its development story shared at Django Day Copenhagen 2024. We welcome your input on data needs and preparation through our User Survey – thank you for contributing!
 
 <div class="buttons">
-  <VPButton tag="a" href="https://demo.datasnack.org/" text="Data Hub Demo" />
+  <VPButton tag="a" href="/guide/" text="Setup & Usage" />
+  <VPButton tag="a" href="https://github.com/datasnack/datahub/" text="Source code" theme="alt" />
   <VPButton tag="a" href="https://2024.djangoday.dk/talks/jonathan/" text="Development Talk" theme="alt" />
   <VPButton tag="a" href="https://redcap.bibbox.bnitm.de/surveys/?s=4NJ4D9D8M8PTRETF" text="User Survey" theme="alt" />  
 </div>
