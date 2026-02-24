@@ -7,6 +7,8 @@ hero:
   name: "Explore Data Snack's"
   text: "Data Hub framework"
   tagline: Self-hostable, open-source engine for reproducible data harmonization, dataset building & exploration
+  image:
+    src: /Data-Snack-bits.svg
   actions:
     - theme: brand
       text: Setup & Usage
