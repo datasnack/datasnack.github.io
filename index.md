@@ -117,7 +117,7 @@ Bernhard Nocht Institute for Tropical Medicine (BNITM), Germany <br>
 
 **Funding** <br>
 Innovate! Academy, Joachim Herz Foundation (JHS), Germany (2023-2026) <br>
-German Federal Ministry of Research Technology and Space, Germany (BMFTR) 
+German Federal Ministry of Research, Technology and Space, Germany (BMFTR, prev. BMBF) (2025-2026)
 
 <div class="buttons">
 	<VPButton tag="a" text="Meet BNITM" href="https://www.bnitm.de/en/" />
