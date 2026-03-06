@@ -133,7 +133,7 @@ Embracing this framework, we support (postgraduate) training initiatives through
 
 ## Gamification in Global Health Education
 
-We collaborate with the **[Interdisciplinary Academy of Competence & Education for Global Health](https://www.bnitm.de/en/training/zentrum-fuer-fort-und-weiterbildung/iace)** (BNITM) and external software developers specializing in digital games, and mixed reality to design applications for training and capacity exchange in Global Health.
+We collaborate with the **Interdisciplinary Academy of Competence & Education for Global Health** (BNITM) and external software developers specializing in digital games, and mixed reality to design applications for training and capacity exchange in Global Health.
 
 **Our contributions include**
 - crafting narrative designs
@@ -144,14 +144,14 @@ We collaborate with the **[Interdisciplinary Academy of Competence & Education f
 <Teaser 
     title="EDDi - Epidemic Disease Detectives Hamburg"
     :links="[
-		{text: 'Visit EDDi', href: 'https://www.bnitm.de/ausbildung/zentrum-fuer-fort-und-weiterbildung/iace/projects/collaborative-projects/eddi'},
+		{text: 'Visit EDDi', href: 'https://www.bnitm.de/en/training/zentrum-fuer-fort-und-weiterbildung/iace-global-health/projects/collaborative-projects/eddi'},
     ]"
 >
 
-Open-source single-player serious game to strengthen epidemiological outbreak investigation and public health response. The project was supported and funded by the [Hamburg Open Online University](https://portal.hoou.de/).
+Open-source single-player serious game to strengthen epidemiological outbreak investigation and public health response. The project was supported and funded by the Hamburg Open Online University.
 
 **Collaborating partners:** <br>
-[Hamburg University of Applied Sciences](https://www.haw-hamburg.de/) <br>
+Hamburg University of Applied Sciences <br>
 Octofox Games UG
 
 </Teaser>
@@ -159,7 +159,7 @@ Octofox Games UG
 <Teaser 
     title="eVeeR - Educational Virtual Environment for Epidemic Response"
     :links="[
-		{text: 'Visit eVeeR', href: 'https://www.bnitm.de/en/training/zentrum-fuer-fort-und-weiterbildung/iace/projects/eveer'},
+		{text: 'Visit eVeeR', href: 'https://www.bnitm.de/en/training/zentrum-fuer-fort-und-weiterbildung/iace-global-health/digital-learning-ressources/eveer'},
 		{text: 'See trailer', href: 'https://www.youtube.com/watch?v=4F7Ma7XjULc'},
     ]"
 >
@@ -245,22 +245,28 @@ DOI: [10.1371/journal.pone.0242685](https://doi.org/10.1371/journal.pone.0242685
 
 ### Talks
 
+***Growing an Open-Source Research Software Project: Challenges and Lessons Learned from Data Snack*** <br>
+Contributors: Ströbele J, Boenecke J <br>
+deRSE 2026 (Conference for Research Software Engineering in Germany, Stuttgart, GER <br>
+**2026-03-05** | Conference talk (English) <br>
+DOI: [coming soon]
+
 ***GeoTIFF DEM als 3D-Modell*** <br>
 Contributors: Ströbele J <br>
-News-Infographics-Analytics-Maps (NIAM) Initiative 2026, Berlin <br>
+News-Infographics-Analytics-Maps (NIAM) Initiative 2026, Berlin, GER <br>
 **2026-01-15** | Conference talk (German) <br>
 URL: [https://www.news-infographics-analytics-maps.media/2026.html](https://www.news-infographics-analytics-maps.media/2026.html)
 
 ***Building a Data Harmonization Engine on top of Django -*** <br>
 ***The Good, the Bad, and the Ugly*** <br>
 Contributors: Ströbele J <br>
-Django Day 2024, Copenhagen <br>
+Django Day 2024, Copenhagen, DK <br>
 **2024-10-04** | Conference talk (English) <br>
 URL: [https://2024.djangoday.dk/talks/jonathan/](https://2024.djangoday.dk/talks/jonathan/)
 
 ***Die Entwicklung eines spatio-temporalen Data Hub als Grundlage eines Frühwarn- und Reaktionssystems für Epidemien in Subsahara-Afrika*** <br>
 Contributors: Ströbele J <br>
-News-Infographics-Analytics-Maps (NIAM) Initiative 2023, Berlin <br>
+News-Infographics-Analytics-Maps (NIAM) Initiative 2023, Berlin, GER <br>
 **2023-01-19** | Conference talk (German) <br>
 URL: [https://news-infographics-analytics-maps.media/2023.html](https://news-infographics-analytics-maps.media/2023.html)
 
