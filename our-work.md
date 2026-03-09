@@ -245,11 +245,11 @@ DOI: [10.1371/journal.pone.0242685](https://doi.org/10.1371/journal.pone.0242685
 
 ### Talks
 
-***Growing an Open-Source Research Software Project: Challenges and Lessons Learned from Data Snack*** <br>
-Contributors: Ströbele J, Boenecke J <br>
-deRSE 2026 (Conference for Research Software Engineering in Germany, Stuttgart, GER <br>
-**2026-03-05** | Conference talk (English) <br>
-DOI: [coming soon]
+***Growing an Open-Source Research Software Project: Challenges and Lessons Learned from Data Snack***  
+Contributors: Ströbele J, Boenecke J  
+deRSE 2026 (Conference for Research Software Engineering in Germany, Stuttgart, GER  
+**2026-03-05** | Conference talk (English)  
+DOI: [10.5281/zenodo.18922301](https://doi.org/10.5281/zenodo.18922301)  
 
 ***GeoTIFF DEM als 3D-Modell*** <br>
 Contributors: Ströbele J <br>
