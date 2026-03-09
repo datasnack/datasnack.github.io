@@ -247,7 +247,7 @@ DOI: [10.1371/journal.pone.0242685](https://doi.org/10.1371/journal.pone.0242685
 
 ***Growing an Open-Source Research Software Project: Challenges and Lessons Learned from Data Snack***  
 Contributors: Ströbele J, Boenecke J  
-deRSE 2026 (Conference for Research Software Engineering in Germany, Stuttgart, GER  
+[deRSE 2026](https://events.hifis.net/event/2945/) (Conference for Research Software Engineering in Germany, Stuttgart, GER  
 **2026-03-05** | Conference talk (English)  
 DOI: [10.5281/zenodo.18922301](https://doi.org/10.5281/zenodo.18922301)  
 
