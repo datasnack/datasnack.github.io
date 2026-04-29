@@ -177,7 +177,7 @@ Studio Monstrum (Alon & Reinke GbR)
 
 Our work extends beyond open source software and data pipelines to active knowledge sharing: publishing in peer-reviewed journals, presenting at scientific conferences, and engaging public audiences to maximize research impact.
 
-### Research Publications and Book Chapters
+### Articles in peer-reviewed journals, contributions to peer-reviewed conferences or to anthology volumes, and book publications
 
 ***Two-stage cluster sampling to assess SARS-CoV-2 seroprevalence without pre-enumeration: An example from Madagascar***  
 Contributors: Lorenz E, Amuasi J, Randrianarisoa T, et al.  
@@ -231,19 +231,25 @@ DO: [10.3390/su13137000](https://doi.org/10.3390/su13137000)
 
 ***Multi-Modal Travel Planning into an Agent-Based Model: A Case Study at the Train Station Kellinghusenstraße in Hamburg***  
 Contributors: Lenfers UA, Ahmady-Moghaddam N, Glake D, et al.  
-Land (Sustainable Urbanism in the Era of Big Data: A Data-Driven Approach to Strategic Planning)  
-*2021-11-03* | Journal article  
+Land (Sustainable Urbanism in the Era of Big Data: A Data-Driven Approach to Strategic Planning)   
+**2021-11-03** | Journal article  
 DOI: [10.3390/land10111179](https://doi.org/10.3390/land10111179)
 
 ***Exploring the influence of deforestation on dengue fever incidence in the Brazilian Amazonas state***  
 Contributors: Kalbus A, Sampaio V, Boenecke J, Reintjes R  
-PLOS One  
+PLOS One   
 **2021-01-07** | Journal article  
 DOI: [10.1371/journal.pone.0242685](https://doi.org/10.1371/journal.pone.0242685)
 
 <br>
 
-### Talks
+### Other form of published results
+
+***Virtual Reality Training for Mobile Laboratory Deployment: The eVeeR Experience***   
+Contributors: Boenecke J, Puradiredja DI, Habermann T, Alon S, Reinke N   
+Grand Challenges Conference 2026/Global Health Threats: Preparedness and Response, Berlin, GER   
+**2026-03-24** | Conference talk (English)  
+URL: [https://gc-conference-bua.de/program/](https://gc-conference-bua.de/program/)
 
 ***Growing an Open-Source Research Software Project: Challenges and Lessons Learned from Data Snack***  
 Contributors: Ströbele J, Boenecke J  
@@ -257,9 +263,52 @@ News-Infographics-Analytics-Maps (NIAM) Initiative 2026, Berlin, GER
 **2026-01-15** | Conference talk (German)  
 URL: [https://www.news-infographics-analytics-maps.media/2026.html](https://www.news-infographics-analytics-maps.media/2026.html)
 
+***Serious Play for Serious Challenges***   
+Contributors: Boenecke J, Helfrich M   
+PLAY Creative Gaming Festival 2025, Hamburg, GER   
+**2025-11-15** | Community talk & exhibition [German]   
+URL: [https://www.playfestival.de/en/program/](https://www.playfestival.de/en/program/)
+
+***WheneVeeR, WhereVeeR: Mobile VR Training for Epidemic Response***   
+Contributors: Boenecke J, Studio Monstrum (Reinke N, Alon S), Puradiredja DI   
+nextReality.festival 2025, Hamburg, GER   
+**2025-11-06** | Community talk & exhibition [German] + "Best interactive education nominee   
+URL: [https://nextrealityfestival.com/en/review-2025/](https://nextrealityfestival.com/en/review-2025/)
+
+***Precision Public Health: Scaling Population-Level Impact***   
+Contributors: Boenecke J, Wu A   
+Transatlantic Innovation Forum: Healthcare & Life Sciences 2025, Covington, US   
+**2025-10-23** | Community talk   
+URL: [https://www.dwihnewyork.org/en/event/transatlantic-innovation-forum-healthcare-life-sciences/](https://www.dwihnewyork.org/en/event/transatlantic-innovation-forum-healthcare-life-sciences/)
+
+***The Data Hub – Enhancing Infectious Disease Research and Global Health Action through Data Collaboration***   
+Contributors: Boenecke J, Ströbele J, May J   
+European Congress on Tropical Medicine and International Health (ECTMIH) 2025 / Emerging
+Infections: Pandemics and Control, Hamburg, GER   
+**2025-09-29** | Poster & pitch   
+URL: [https://programme.conventus.de/ectmih-2025/program/program-points/5bb9c946-3e73-4500-bf2b-4c7810a21010](https://programme.conventus.de/ectmih-2025/program/program-points/5bb9c946-3e73-4500-bf2b-4c7810a21010)
+
+***Establishing a research center on climate change, infectious diseases, and antimicrobial resistance as an adaptation strategy to the climate crisis***   
+Contributors: Molina Alvarado A, Duarte Martínez F, Tijerino Ayala A, et al.   
+European Congress on Tropical Medicine and International Health (ECTMIH) 2025 / One Health: Approaches and Solutions, Hamburg, GER   
+**2025-09-29** | Poster & pitch   
+URL: [https://programme.conventus.de/ectmih-2025/program/program-points/f3cc4d8d-a46f-470d-b823-06e49cedb7f9](https://programme.conventus.de/ectmih-2025/program/program-points/f3cc4d8d-a46f-470d-b823-06e49cedb7f9)
+
+***Virtual reality training for mobile laboratory deployment: The eVeeR experience***   
+Contributors: Puradiredja DI, Boenecke J, Reinke N, Alon S   
+European Congress on Tropical Medicine and International Health (ECTMIH) 2025 / Harnessing digital innovations for transformative Global Health education and learning, Hamburg, GER   
+**2025-09-29** | Conference talk   
+URL: [https://programme.conventus.de/ectmih-2025/program/program-points/11fadd0a-906e-4294-abd0-06d70cb62ab0](https://programme.conventus.de/ectmih-2025/program/program-points/11fadd0a-906e-4294-abd0-06d70cb62ab0)
+
+***Computational and immersive technologies in epidemic preparedness and response***   
+Contributors: Boenecke J, Ströbele J, Nolte K, Alon S, Reinke N, Helfrich M   
+European Congress on Tropical Medicine and International Health (ECTMIH) Academy 2025 / Harnessing digital innovations for transformative Global Health education and learning, Hamburg, GER   
+**2025-09-28** | Community workshop   
+URL: [https://ectmih-2025.de/programme-abstracts/ectmih-academy](https://ectmih-2025.de/programme-abstracts/ectmih-academy)
+
 ***Building a Data Harmonization Engine on top of Django -***  
 ***The Good, the Bad, and the Ugly***  
-Contributors: Ströbele J  
+Contributors: Ströbele J   
 Django Day 2024, Copenhagen, DK  
 **2024-10-04** | Conference talk (English)  
 URL: [https://2024.djangoday.dk/talks/jonathan/](https://2024.djangoday.dk/talks/jonathan/)
@@ -272,7 +321,7 @@ URL: [https://news-infographics-analytics-maps.media/2023.html](https://news-inf
 
 <br>
 
-### Theses and Other Publications
+### Theses and student projects
 
 ***Extension of a Data Hub for Epidemiological Data with a Data Coverage and Analysis Component***  
 Contributors: Valentina MA  
